@@ -1,0 +1,47 @@
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+}
+.main_div{
+  margin: 110px 380px 10px;
+  text-align: center;
+}
+.second_div{
+  margin: 10px 430px 22px;
+  text-align: center;
+  min-width: fit-content;
+}
+.text_404{
+  font-size: 120px;
+  font-weight: normal;
+  cursor: pointer;
+  
+}
+.second_div:hover ~ .hidden_div {
+  display: block;
+}
+.second_div:hover ~ .third_div {
+  margin-top: 98px;
+}
+
+.hidden_div{
+  display: none;
+  text-align: center;
+}
+.hidden_text{
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0;
+  
+}
+.third_div{
+  margin: 280px 430px 30px;
+}
+.back{
+  text-align: center;
+  font-weight: normal;
+  font-size: 17px;
+}
